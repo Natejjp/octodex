@@ -25,8 +25,36 @@ img {
   background-color: white;
 }
 
-ul {
+nav ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: -2rem;
+  background-color: grey;
+}
+
+.topWords {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.rightWords {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.test {
+  display: flex;
+  margin-left: 60%;
+}
+
+section ul {
+  list-style: none;
+  border: 1px solid black;
+  margin-left: -10px;
+}
+
+footer {
+  background-color: grey;
+  padding: 0.5rem;
 }
