@@ -6,43 +6,62 @@ html {
   height: 100%;
 }
 
+/* Removes space between header and edge of page and creates white background */
 body {
   margin: 0;
   min-height: 100%;
   background-color: rgb(250, 251, 252);
 }
 
-section {
-  display: flex;
-  flex-wrap: wrap;
+/* Adds border to header. Need to size of header.  */
+header {
+  margin: 0;
+  border: 3px solid rgb(213, 214, 214);
+  background-color: rgb(254, 254, 254);
 }
 
-img {
-  border: 1px solid rgb(240, 241, 243);
-  border-radius: 10px;
-  padding: 0rem;
-  margin: 1rem;
-  background-color: white;
-}
-
+/* Removes bullet points, adds list into a container. 
+closed margin gap on the left side
+(html) Put original two sets of list into one ul */
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: flex-start;
   margin-left: -2rem;
-  background-color: grey;
+  font-size: 24px;
+  /* padding-top: 10px; */
 }
 
-.topWords {
+/* Space between words and to center github logo with words 
+(html) created class for words on the top left side*/
+.leftWords {
   padding: 10px;
   margin-top: 20px;
 }
 
+/* space between words and center words 
+(html) created class for words on the top right side*/
 .rightWords {
   padding: 10px;
   margin-top: 20px;
 }
 
+/* makes octocats go from line to line */
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Adds borders to octocats gives each octocat some space*/
+img {
+  border: 3px solid rgb(225, 228, 232);
+  border-radius: 10px;
+  margin: 1rem;
+  background-color: white;
+}
+
+/* Removes bullet points and kind of lines text with image 
+margin to move text closer to image
+Put into a flex container and aligned to center*/
 section ul {
   list-style: none;
   margin-left: -10px;
@@ -58,6 +77,7 @@ section ul {
   margin-left: 58%;
 }
 
+/* Works but more than one icons makes it look funny. %?  */
 .icon {
   margin-left: 200px;
 }
