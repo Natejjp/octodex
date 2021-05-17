@@ -43,15 +43,23 @@ nav ul {
   margin-top: 20px;
 }
 
-.test {
-  display: flex;
-  margin-left: 60%;
-}
-
 section ul {
   list-style: none;
-  border: 1px solid black;
   margin-left: -10px;
+
+  /* moves name of octocat up. Is margin-bottom 20px not the same*/
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+}
+
+.test {
+  display: flex;
+  margin-left: 58%;
+}
+
+.icon {
+  margin-left: 200px;
 }
 
 footer {
