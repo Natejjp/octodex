@@ -81,50 +81,77 @@ footer {
 }
 
 @media all and (min-width: 600px) {
+  .leftWordsB {
+    display: none;
+  }
+  /* section img {
+    max-width: 500px;
+    height: auto; 
+  } */
+}
+
+@media all and (min-width: 767px) {
   .leftWordsA {
     margin-left: 30%;
   }
   .leftWordsB {
-    margin-left: 50%;
-  }
-  /* section img {
-    max-width: 500px;
-    height: auto;
-  } */
-}
-
-@media all and (min-width: 700px) {
-  .leftWordsA {
-    margin-left: 40%;
-  }
-  .leftWordsB {
-    margin-left: 50%;
-  }
-}
-
-@media all and (min-width: 800px) {
-  .leftWordsA {
-    margin-left: 50%;
-  }
-  .leftWordsB {
-    margin-left: 50%;
-  }
-}
-
-@media all and (min-width: 1000px) {
-  .leftWordsA {
-    margin-left: 8rem;
-  }
-  .leftWordsB {
-    margin-left: 2rem;
+    display: list-item;
   }
 }
 
 @media all and (min-width: 1100px) {
   .leftWordsA {
-    margin-left: 12rem;
+    margin-left: 50%;
   }
-  .leftWordsB {
-    margin-left: 10rem;
+}
+
+@media all and (min-width: 1200px) {
+  .leftWordsA {
+    margin-left: 60%;
   }
+}
+
+@media all and (min-width: 1300px) {
+  .leftWordsA {
+    margin-left: 70%;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  .leftWordsA {
+    margin-left: 80%;
+  }
+}
+
+@media all and (min-width: 1500px) {
+  .leftWordsA {
+    margin-left: 90%;
+  }
+}
+
+@media all and (min-width: 1600px) {
+  .leftWordsA {
+    margin-left: 100%;
+  }
+
+@media all and (min-width: 1700px) {
+  .leftWordsA {
+   margin-left: 110%;
+  }
+
+@media all and (min-width: 1800px) {
+  .leftWordsA {
+   margin-left: 120%;
+  }
+
+@media all and (min-width: 1900px) {
+  .leftWordsA {
+   margin-left: 150%;
+  }
+
+@media all and (min-width: 2000px) {
+  .leftWordsA {
+   margin-left: 180%;
+  }
+
 }
